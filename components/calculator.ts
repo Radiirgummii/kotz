@@ -1,5 +1,4 @@
 import * as fs from 'fs';
-import * as path from 'path';
 import { PDFDocument, rgb } from 'pdf-lib';
 
 type Unit = (value: number) => number;
@@ -28,17 +27,16 @@ interface Data {
 class Menu {
     private data: Data;
     private menu: Record<string, number>;
-    private ingList: Record<string, number>;
+    private ingredientList: Record<string, number>;
     private participants: number;
-    private pdfDoc: PDFDocument;
+    private pdfDoc!: PDFDocument;
 
     constructor(datafile: string = 'data.json', menutext: Record<string, number> = {}, participants: number = 25) {
         const dataContent = fs.readFileSync(datafile, 'utf-8');
         this.data = JSON.parse(dataContent);
         this.menu = menutext;
-        this.ingList = {};
+        this.ingredientList = {};
         this.participants = participants;
-        this.pdfDoc = PDFDocument.create();
     }
 
     private addIngredients(meal: string, count: number): void {
@@ -46,22 +44,22 @@ class Menu {
         for (const [ingredient, quantity] of Object.entries(recipe.ingredients)) {
             const unitFunc = units[this.data.ingredients[ingredient].unit];
             const amount = unitFunc(quantity);
-            if (this.ingList[ingredient]) {
-                this.ingList[ingredient] += amount * this.participants * count;
+            if (this.ingredientList[ingredient]) {
+                this.ingredientList[ingredient] += amount * this.participants * count;
             } else {
-                this.ingList[ingredient] = amount * this.participants * count;
+                this.ingredientList[ingredient] = amount * this.participants * count;
             }
         }
     }
 
-    private async addGeneralIngList(): Promise<void> {
+    public async addGeneralIngredientList(): Promise<void> {
         const page = this.pdfDoc.addPage();
-        this.adjustUnits(this.ingList);
-        const table = this.renderTable(Object.keys(this.ingList), Object.values(this.ingList));
+        this.adjustUnits(this.ingredientList);
+        const table = this.renderTable(Object.keys(this.ingredientList), Object.values(this.ingredientList));
         page.drawText(table, { x: 50, y: 700, size: 12, color: rgb(0, 0, 0) });
     }
 
-    private async addMealIngList(meal: string, count: number): Promise<void> {
+    private async addMealIngredientList(meal: string, count: number): Promise<void> {
         const page = this.pdfDoc.addPage();
         page.drawText(meal, { x: 50, y: 750, size: 12, color: rgb(0, 0, 0) });
         const ingList: Record<string, number> = {};
@@ -98,7 +96,7 @@ class Menu {
         for (const [meal, count] of Object.entries(this.menu)) {
             console.log(0, `adding ${meal}`);
             if (count !== 0) {
-                await this.addMealIngList(meal, count);
+                await this.addMealIngredientList(meal, count);
                 this.addIngredients(meal, count);
             }
         }
@@ -110,13 +108,11 @@ class Menu {
     }
 }
 
-async function main(): Promise<void> {
+export default async function main(): Promise<void> {
     const menuContent = fs.readFileSync('menu.json', 'utf-8');
     const textmenu = JSON.parse(menuContent);
     const menu = new Menu('data.json', textmenu.meals, 20);
     await menu.calculate();
-    await menu.addGeneralIngList();
+    await menu.addGeneralIngredientList();
     await menu.output('menu.pdf');
 }
-
-main().catch((err) => console.error(err));

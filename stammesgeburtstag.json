@@ -1,0 +1,25 @@
+{
+    "meals": {
+        "Frühstück": 1,
+        "Mittag": 0,
+        "Kakao": 0,
+        "Chai": 1,
+        "Vegane Lasange Suppe": 0,
+        "Paprika Reis Pfanne": 0,
+        "Käse Lauch Suppe": 0,
+        "Couscous Salat": 0,
+        "Reis Gemüsepfanne": 0,
+        "Schupfnudeln": 0,
+        "käsetopf": 0,
+        "käserisotto": 0,
+        "Fenchelrisotto": 0,
+        "Kartoffelklöße": 1,
+        "Kürbiscremeesuppe": 0,
+        "pilzsojageschnetzeltes": 1,
+        "Tomaten-Paprika-Käse-sauce+Nudeln": 0,
+        "milchreis": 0,
+        "mie nudeln": 0,
+        "Pizza": 0,
+        "Wraps": 0
+    }
+}

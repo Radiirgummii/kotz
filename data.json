@@ -1,0 +1,504 @@
+{
+    "ingredients": {
+        "Gouda": {
+            "unit": "g"
+        },
+        "Gouda-gerieben": {
+            "unit": "g"
+        },
+        "Spätzle": {
+            "unit": "g"
+        },
+        "Frischkäse": {
+            "unit": "g"
+        },
+        "Risotto-Reis": {
+            "unit": "g"
+        },
+        "Paprika": {
+            "unit": "g"
+        },
+        "Pilze": {
+            "unit": "g"
+        },
+        "Zwiebeln": {
+            "unit": "g"
+        },
+        "Röstzwiebeln": {
+            "unit": "g"
+        },
+        "Ketchup": {
+            "unit": "g"
+        },
+        "Kartoffeln": {
+            "unit": "g"
+        },
+        "Kartoffelstärke": {
+            "unit": "g"
+        },
+        "Milch": {
+            "unit": "ml"
+        },
+        "Hafermilch": {
+            "unit": "ml"
+        },
+        "Milchreis": {
+            "unit": "g"
+        },
+        "Vanillezucker": {
+            "unit": "g"
+        },
+        "Salz": {
+            "unit": "g"
+        },
+        "Zimt": {
+            "unit": "g"
+        },
+        "Sahne": {
+            "unit": "ml"
+        },
+        "Sojageschnetzeltes": {
+            "unit": "g"
+        },
+        "Fenchel": {
+            "unit": "g"
+        },
+        "Schalotten": {
+            "unit": "g"
+        },
+        "Butter": {
+            "unit": "g"
+        },
+        "Gemüsebrühe": {
+            "unit": "ml"
+        },
+        "Pinienkerne": {
+            "unit": "g"
+        },
+        "Frühlingszwiebeln": {
+            "unit": "g"
+        },
+        "Parmesan": {
+            "unit": "g"
+        },
+        "Tomatensauce": {
+            "unit": "g"
+        },
+        "Wraps": {
+            "unit": "st"
+        },
+        "Soßen nach Wahl": {
+            "unit": "st"
+        },
+        "Spinat": {
+            "unit": "g"
+        },
+        "Feta": {
+            "unit": "g"
+        },
+        "Müsli": {
+            "unit": "g"
+        },
+        "Kakaopulver": {
+            "unit": "g"
+        },
+        "Brot": {
+            "unit": "g"
+        },
+        "Aufstrich": {
+            "unit": "g"
+        },
+        "Marmelade": {
+            "unit": "g"
+        },
+        "Nussshit": {
+            "unit": "g"
+        },
+        "Trockenhefe": {
+            "unit": "st"
+        },
+        "Öl": {
+            "unit": "ml"
+        },
+        "Mehl": {
+            "unit": "g"
+        },
+        "Zucker": {
+            "unit": "g"
+        },
+        "Schupfnudeln": {
+            "unit": "g"
+        },
+        "Tomaten": {
+            "unit": "g"
+        },
+        "Nudeln": {
+            "unit": "g"
+        },
+        "Knoblauch": {
+            "unit": "g"
+        },
+        "Nelken": {
+            "unit": "g"
+        },
+        "Schwarzer Tee": {
+            "unit": "st"
+        },
+        "Orangensaft": {
+            "unit": "ml"
+        },
+        "Orangen": {
+            "unit": "st"
+        },
+        "Apfel": {
+            "unit": "st"
+        },
+        "Traubensaft": {
+            "unit": "ml"
+        },
+        "Honig": {
+            "unit": "g"
+        },
+        "Rote Linsen": {
+            "unit": "g"
+        },
+        "tomatenmark": {
+            "unit": "ml"
+        },
+        "Zitronensaft": {
+            "unit": "ml"
+        },
+        "Lauch": {
+            "unit": "g"
+        },
+        "Schmelzkäse": {
+            "unit": "g"
+        },
+        "Couscous": {
+            "unit": "g"
+        },
+        "Mais": {
+            "unit": "g"
+        },
+        "Essig": {
+            "unit": "ml"
+        },
+        "Currypaste": {
+            "unit": "g"
+        },
+        "Sojasauce": {
+            "unit": "ml"
+        },
+        "Erbsen": {
+            "unit": "g"
+        },
+        "Möhren": {
+            "unit": "g"
+        },
+        "Reis": {
+            "unit": "g"
+        },
+        "mie nudel": {
+            "unit": "g"
+        },
+        "brokkoli": {
+            "unit": "g"
+        },
+        "sesamoel": {
+            "unit": "g"
+        },
+        "ingwer": {
+            "unit": "g"
+        },
+        "criracha sauce": {
+            "unit":"ml"
+        },
+        "Hokkaido Kürbis":{
+            "unit":"st"
+        },
+        "Erdnussbutter": {
+            "unit":"g"
+        },
+        "Sckoki":{
+            "unit":"g"
+        },
+        "Spekulatius":{
+            "unit":"g"
+        },
+        "Kekse":{
+            "unit":"g"
+        },
+        "Lebkuchen":{
+            "unit":"g"
+        },
+        "Manderinen":{
+            "unit":"st"
+        },
+        "Gummibärchen":{
+            "unit":"g"
+        },
+        "kitney Bohnen":{
+            "unit":"g"
+        },
+        "tomaten-gestückelt":{
+            "unit":"g"
+        }
+
+
+    },
+    "recepies": {
+        "Chai": {
+            "ingredients": {
+                "Schwarzer Tee": 0.2,
+                "Nelken": 2.5,
+                "Orangensaft": 100,
+                "Orangen": 0.1,
+                "Apfel": 0.2,
+                "Traubensaft": 100,
+                "Zimt": 0.05,
+                "Honig": 10
+            }
+        },
+        "Nudeln mit Tomatensauce":{
+            "ingredients":{
+                "Nudeln":125,
+                "Tomatensauce": 50,
+                "Salz":5
+            }
+        },
+        "Vegane Lasange Suppe": {
+            "ingredients": {
+                "Öl": 1.95,
+                "Zwiebeln": 10,
+                "Knoblauch": 3,
+                "Rote Linsen": 26.25,
+                "Gemüsebrühe": 300,
+                "Tomatensauce": 30,
+                "tomatenmark": 4,
+                "Nudeln": 37.5,
+                "Zitronensaft": 4
+            }
+        },
+        "Paprika Reis Pfanne": {
+            "ingredients": {
+                "Paprika": 100,
+                "Zwiebeln": 100,
+                "Knoblauch": 1.5,
+                "Öl": 4,
+                "tomatenmark": 12,
+                "Reis": 62.5,
+                "Gemüsebrühe": 125
+            }
+        },
+        "mie nudeln": {
+            "ingredients": {
+                "mie nudel": 100,
+                "Frühlingszwiebeln": 40,
+                "Paprika": 70,
+                "Knoblauch": 3,
+                "ingwer": 11,
+                "Gemüsebrühe": 16,
+                "Sojasauce": 20,
+                "sesamoel": 10,
+                "criracha sauce": 5
+            }
+        },
+        "Kürbiscremeesuppe": {
+            "ingredients": {
+                "Hokkaido Kürbis": 0.125,
+                "ingwer": 10,
+                "Zwiebeln": 20,
+                "Knoblauch": 1.5,
+                "Kartoffeln": 80
+            }
+        },
+        "Käse Lauch Suppe": {
+            "ingredients": {
+                "Sojageschnetzeltes": 15,
+                "Gemüsebrühe": 188,
+                "Lauch": 126,
+                "Schmelzkäse": 125,
+                "Gouda": 12.5,
+                "Knoblauch": 1.5,
+                "Zwiebeln": 10,
+                "Öl": 4
+            }
+        },
+        "Couscous Salat": {
+            "ingredients": {
+                "Couscous": 62.5,
+                "Gemüsebrühe": 62.5,
+                "tomatenmark": 4,
+                "Paprika": 75,
+                "Mais": 75,
+                "Frühlingszwiebeln": 50,
+                "Essig": 7.5,
+                "Öl": 12,
+                "Currypaste": 5,
+                "Sojasauce": 4
+            }
+        },
+        "Reis Gemüsepfanne": {
+            "ingredients": {
+                "Reis": 62.5,
+                "Paprika": 32.5,
+                "Erbsen": 75,
+                "Möhren": 75,
+                "Zwiebeln": 100,
+                "Frischkäse": 37.5
+            }
+        },
+        "Schupfnudeln": {
+            "ingredients": {
+                "Schupfnudeln": 125
+            }
+        },
+        "Frühstück": {
+            "ingredients": {
+                "Müsli": 100,
+                "Hafermilch": 150,
+                "Milch": 150,
+                "Kakaopulver": 30
+                ,"Apfel":1
+                ,"Orangen":1
+            }
+        },
+        "Kakao": {
+            "ingredients": {
+                "Kakaopulver": 30,
+                "Milch": 150
+            }
+        },
+        "Mittag": {
+            "ingredients": {
+                "Brot": 200,
+                "Aufstrich": 10,
+                "Frischkäse": 10,
+                "Gouda": 50,
+                "Marmelade": 10,
+                "Nussshit": 10,
+                "Erdnussbutter": 10,
+                "Butter": 3
+            }
+        },
+        "käsetopf": {
+            "ingredients": {
+                "Gouda": 70,
+                "Spätzle": 70,
+                "Schmelzkäse": 20,
+                "Frischkäse": 20,
+                "Röstzwiebeln": 20,
+                "Ketchup": 20
+            }
+        },
+        "käserisotto": {
+            "ingredients": {
+                "Risotto-Reis": 100,
+                "Gouda": 50,
+                "Paprika": 50,
+                "Pilze": 50,
+                "Zwiebeln": 50,
+                "Frischkäse": 10,
+                "Mais": 30
+            }
+        },
+        "Fenchelrisotto": {
+            "ingredients": {
+                "Fenchel": 110,
+                "Zwiebeln": 10,
+                "Risotto-Reis": 60,
+                "Gemüsebrühe": 200,
+                "Pinienkerne": 15,
+                "Frühlingszwiebeln": 25,
+                "Parmesan": 7
+            },
+            "link": "https://www.rewe.de/rezepte/fenchel-pinienkern-risotto/"
+        },
+        "Kartoffelklöße": {
+            "ingredients": {
+                "Kartoffeln": 200,
+                "Kartoffelstärke": 50
+            },
+            "link": "https://www.chefkoch.de/rezepte/2296301366060651/Kartoffelkloesse-Fraenkische-Art.html?portionen=1"
+        },
+        "pilzsojageschnetzeltes": {
+            "ingredients": {
+                "Zwiebeln": 20,
+                "Pilze": 80,
+                "Sahne": 20,
+                "Sojageschnetzeltes": 20
+            }
+        },
+        "Tomaten-Paprika-Käse-sauce+Nudeln": {
+            "ingredients": {
+                "Tomaten": 100,
+                "Paprika": 100,
+                "Gouda-gerieben": 100,
+                "Zwiebeln": 50,
+                "Knoblauch": 10,
+                "Nudeln": 125
+            }
+        },
+        "milchreis": {
+            "ingredients": {
+                "Milch": 200,
+                "Hafermilch":50,
+                "Milchreis": 60,
+                "Vanillezucker": 4,
+                "Salz": 0.01,
+                "Zimt": 0.01
+            }
+        },
+        "Pizza": {
+            "ingredients": {
+                "Trockenhefe": 0.5,
+                "Salz": 2.5,
+                "Zucker": 0.01,
+                "Öl": 7.5,
+                "Mehl": 250,
+                "Tomatensauce": 20,
+                "Gouda-gerieben": 40,
+                "Paprika": 5,
+                "Pilze": 10,
+                "Spinat": 10,
+                "Feta": 10
+            }
+        },
+        "Chilli":{
+            "ingredients":{
+                "Kartoffeln": 60,
+                "Rote Linsen": 30,
+                "Mais": 30,
+                "kitney Bohnen": 40,
+                "Paprika":50,
+                "tomaten-gestückelt":100,
+                "tomatenmark":10,
+                "Zwiebeln":20,
+                "Knoblauch":2
+
+            }
+        },
+        "Wraps": {
+            "ingredients": {
+                "Wraps": 2,
+                "Frischkäse": 10,
+                "Frühlingszwiebeln": 20,
+                "Ketchup": 10,
+                "Pilze": 10,
+                "Röstzwiebeln": 20,
+                "Paprika": 20,
+                "Soßen nach Wahl": 0.2
+            }
+        },
+        "Abendrunde-winter":{
+            "ingredients":{
+                "Kekse": 50,
+                "Spekulatius": 80,
+                "Lebkuchen": 50,
+                "Manderinen": 0.5,
+                "Gummibärchen": 100,
+                "Sckoki": 100
+            }
+        }
+    }
+}
